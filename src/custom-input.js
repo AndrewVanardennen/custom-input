@@ -1,5 +1,5 @@
 'use strict';
-import RenderMixin from './../node_modules/custom-renderer-mixin/src/render-mixin.js';
+import RenderMixin from './../../custom-renderer-mixin/src/render-mixin.js';
 
 export default (() => {
   class CustomInput extends RenderMixin(HTMLElement) {
