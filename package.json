@@ -10,7 +10,7 @@
     "build": "rollup -c -w"
   },
   "dependencies": {
-    "custom-renderer-mixin": "^0.1.9"
+    "custom-renderer-mixin": "^1.1.2"
   },
   "devDependencies": {
     "rollup": "^0.59.4"
