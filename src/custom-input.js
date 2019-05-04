@@ -50,7 +50,9 @@ export default (() => {
             width: 100%;
           }
         </style>
+        <slot name="before"></slot>
         <input></input>
+        <slot name="after"></slot>
       `;
     }
   };
