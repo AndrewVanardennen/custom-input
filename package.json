@@ -1,18 +1,12 @@
 {
   "name": "custom-input",
-  "version": "0.1.0",
-  "main": "custom-input.js",
-  "module": "src/custom-input.js",
+  "version": "0.2.0",
+  "module": "custom-input.js",
   "repository": "https://github.com/andrewvanardennen/custom-input.git",
   "author": "Andrew Vanardennen <andrew.vanardennen@gmail.com>",
+  "contributors": [
+    "Glenn Vandeuren <vandeurenglenn@gmail.com> (https://github.com/vandeurenglenn)"
+  ],
   "flat": true,
-  "scripts": {
-    "build": "rollup -c -w"
-  },
-  "dependencies": {
-    "custom-renderer-mixin": "^1.1.2"
-  },
-  "devDependencies": {
-    "rollup": "^0.59.4"
-  }
+  "postversion": "npm publish"
 }
