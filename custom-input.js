@@ -1,5 +1,8 @@
 export default (() => {
   class CustomInput extends HTMLElement {
+    static get observedAttributes() {
+      return ['placeholder', 'value', 'type'];
+    }
     constructor() {
       super();
       this.attachShadow({mode: 'open'});
@@ -26,6 +29,9 @@ export default (() => {
       } else {
         this.addEventListener(name, cb);
       }
+    }
+    attributeChangedCallback(name, old, value) {
+      if (old !== value) this[name] = value;
     }
     get template() {
       return `
