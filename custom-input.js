@@ -50,6 +50,8 @@ export default (() => {
             background: transparent;
             height: var(--custom-input-height, 48px);
             width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
           }
         </style>
         <slot name="before"></slot>
