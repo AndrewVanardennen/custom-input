@@ -37,7 +37,8 @@ export default (() => {
       return `
         <style>
           :host {
-            display: block;
+            display: flex;
+            align-items: center;
             height: var(--custom-input-height, 48px);
             background: var(--custom-input-background, transparent);
             width: 100%;
