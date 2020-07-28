@@ -65,6 +65,7 @@ export default (() => {
             width: 100%;
             box-sizing: border-box;
             padding: 10px;
+            color: inherit;
           }
         </style>
         <slot name="before"></slot>
