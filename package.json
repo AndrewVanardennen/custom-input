@@ -1,6 +1,6 @@
 {
   "name": "@andrewvanardennen/custom-input",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "module": "custom-input.js",
   "repository": "https://github.com/andrewvanardennen/custom-input.git",
   "author": "Andrew Vanardennen <andrew.vanardennen@gmail.com>",
@@ -12,5 +12,5 @@
   "contributors": [
     "Glenn Vandeuren <vandeurenglenn@gmail.com> (https://github.com/vandeurenglenn)"
   ],
-  "flat": true  
+  "flat": true
 }
