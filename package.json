@@ -1,12 +1,16 @@
 {
-  "name": "custom-input",
+  "name": "@andrewvanardennen/custom-input",
   "version": "0.3.0",
   "module": "custom-input.js",
   "repository": "https://github.com/andrewvanardennen/custom-input.git",
   "author": "Andrew Vanardennen <andrew.vanardennen@gmail.com>",
+  "keywords": [
+    "custom",
+    "element",
+    "input"
+  ],
   "contributors": [
     "Glenn Vandeuren <vandeurenglenn@gmail.com> (https://github.com/vandeurenglenn)"
   ],
-  "flat": true,
-  "postversion": "npm publish"
+  "flat": true  
 }
