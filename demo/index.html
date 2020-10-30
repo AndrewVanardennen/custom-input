@@ -14,9 +14,24 @@
         right: 0;
         bottom: 0;
       }
+      
+      .dark {
+        --custom-input-background: #000;
+        --custom-input-color: #fff;
+      }
+      
+      .weird {
+        --custom-input-background: black;
+        --custom-input-placeholder-color: green;
+        --custom-input-color: red;
+      }
     </style>
   </head>
   <body>
-    <custom-input></custom-input>
+    <custom-input placeholder="type here"></custom-input>
+    
+    <custom-input class="dark" placeholder="type here"></custom-input>    
+    
+    <custom-input class="weird" placeholder="type here"></custom-input>
   </body>
 </html>

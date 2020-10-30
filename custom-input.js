@@ -56,6 +56,7 @@ export default (() => {
             width: 100%;
             box-shadow: 0px 1px 3px -1px #333;
             min-width: 240px;
+            --custom-input-color: #555;
           }
           input {
             --webkit-visibility: none;
@@ -65,7 +66,11 @@ export default (() => {
             width: 100%;
             box-sizing: border-box;
             padding: 10px;
-            color: inherit;
+            color: var(--custom-input-color, #555)
+          }
+          
+          ::placeholder {
+            color: var(--custom-input-placeholder-color, --custom-input-color)
           }
         </style>
         <slot name="before"></slot>
