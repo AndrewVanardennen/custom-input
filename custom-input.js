@@ -66,11 +66,11 @@ export default (() => {
             width: 100%;
             box-sizing: border-box;
             padding: 10px;
-            color: var(--custom-input-color, #555)
+            color: var(--custom-input-color, #555);
           }
           
           ::placeholder {
-            color: var(--custom-input-placeholder-color, --custom-input-color)
+            color: var(--custom-input-placeholder-color, --custom-input-color);
           }
         </style>
         <slot name="before"></slot>
