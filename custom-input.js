@@ -57,6 +57,7 @@ export default (() => {
             box-shadow: 0px 1px 3px -1px #333;
             min-width: 240px;
             --custom-input-color: #555;
+            --custom-input-outline: none;
           }
           input {
             --webkit-visibility: none;
@@ -67,8 +68,9 @@ export default (() => {
             box-sizing: border-box;
             padding: 10px;
             color: var(--custom-input-color, #555);
+            outline: var(--custom-input-outline);
           }
-          
+
           ::placeholder {
             color: var(--custom-input-placeholder-color, --custom-input-color);
           }

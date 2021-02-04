@@ -36,7 +36,7 @@ customElements.define('my-el', class MyEL {
 
 ```html
   <custom-input></custom-input>
-  
+
   <script
     src="./node_modules/@andrewvanardennen/custom-input/custom-input.js"
     type="module">
@@ -49,6 +49,7 @@ customElements.define('my-el', class MyEL {
 --custom-input-background<br>
 --custom-input-color<br>
 --custom-input-placeholder-color<br>
+--custom-input-outline<br>
 
 ## Powered By
 * [customElements@v1](https://developers.google.com/web/fundamentals/web-components/customelements)
